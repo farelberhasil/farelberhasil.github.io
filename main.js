@@ -1,13 +1,12 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
-const gif = document.querySelector(".gif");
+const awal = document.querySelector(".awal.jpeg");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "i Love u too babeee";
-    gif.src =
-      "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
+    awal.src ="akhir.jpeg";
   });
 
 
